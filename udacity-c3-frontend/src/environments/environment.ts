@@ -1,12 +1,12 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
+// NOTE: Set apiHostUsers: 'http://localhost:8081/api/v0' if disable nginx to use 8080 in both apis
 export const environment = {
   production: false,
   appName: 'Udagram',
   apiHostFeed: 'http://localhost:8080/api/v0',
-  apiHostUsers: 'http://localhost:8081/api/v0'
+  apiHostUsers: 'http://localhost:8080/api/v0'
 };
 
 /*
